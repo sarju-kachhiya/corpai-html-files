@@ -3661,7 +3661,7 @@ ul {
 .financial-direction-one {
   position: relative;
   display: block;
-  padding-bottom: 120px;
+  padding-bottom: 80px;
   margin-top: -50px;
   z-index: 1;
 }
@@ -7296,7 +7296,7 @@ ul {
 .services-three {
   position: relative;
   display: block;
-  padding: 120px 0 120px;
+  padding: 40px 0 120px;
   overflow: hidden;
   z-index: 2;
 }
@@ -7486,7 +7486,7 @@ ul {
 .how-it-work-two {
   position: relative;
   display: block;
-  padding: 120px 0 90px;
+  padding: 40px 0 90px;
   counter-reset: count;
 }
 
@@ -11699,7 +11699,7 @@ ul {
 .faq-page {
   position: relative;
   display: block;
-  padding: 120px 0 120px;
+  padding: 40px 0 120px;
   z-index: 1;
 }
 
