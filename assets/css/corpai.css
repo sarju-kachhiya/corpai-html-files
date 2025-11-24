@@ -5642,10 +5642,10 @@ ul {
 .site-footer {
   position: relative;
   display: block;
-  padding-top: 226px;
+  padding-top: 50px;
   background-color: #1e1e1e;
   z-index: 1;
-  margin-top: -140px;
+  margin-top: 0px;
   overflow: hidden;
 }
 
@@ -5712,7 +5712,7 @@ ul {
 .site-footer__top {
   position: relative;
   display: block;
-  padding-bottom: 141px;
+  padding-bottom: 50px;
 }
 
 .footer-widget__contact-box {

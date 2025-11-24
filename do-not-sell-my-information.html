@@ -4,15 +4,13 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Shared on THEMELOCK.COM -  404 Error || corpai || corpai HTML 5 Template </title>
-    <!-- favicons Icons -->
+    <title>Shared on THEMELOCK.COM - Do Not Sell My Information || corpai || corpai HTML 5 Template </title>
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png" />
     <link rel="manifest" href="assets/images/favicons/site.webmanifest" />
     <meta name="description" content="corpai HTML 5 Template " />
 
-    <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -47,10 +45,83 @@
     <link rel="stylesheet" href="assets/vendors/jquery-ui/jquery-ui.css" />
     <link rel="stylesheet" href="assets/vendors/timepicker/timePicker.css" />
 
-    <!-- template styles -->
     <link rel="stylesheet" href="assets/css/corpai.css" />
     <link rel="stylesheet" href="assets/css/corpai-responsive.css" />
-</head>
+    
+    <style>
+        /* 1. Base Container Styling */
+        /* Updated class name from .terms-and-conditions to .do-not-sell */
+        .do-not-sell {
+            /* Ensures all content inside is left-aligned */
+            text-align: left; 
+            padding: 30px; 
+            color: #333; 
+            background-color: #fff; 
+            max-width: 900px; 
+            margin: 0 auto 30px; 
+            border: 1px solid #eee; 
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+        }
+
+        /* 2. Main Header Styling */
+        /* Updated class name from .terms-and-conditions__title to .do-not-sell__title */
+        .do-not-sell__title {
+            font-size: 3em; 
+            font-weight: 700; 
+            margin-bottom: 20px;
+            border-bottom: 2px solid #ddd; 
+            padding-bottom: 10px;
+            text-align: center;
+        }
+
+        /* 3. Sub-Header Styling */
+        /* Updated class name for h3 */
+        .do-not-sell h3 {
+            font-size: 1.8em; 
+            margin-top: 30px;
+            margin-bottom: 10px;
+            color: #1a73e8; /* Blue color for emphasis */
+            text-align: left;
+        }
+
+        /* 4. General Content Readability */
+        /* Updated class name for p */
+        .do-not-sell p, 
+        .do-not-sell ul li {
+            text-align: left; 
+            line-height: 1.6;
+        }
+        
+        /* 5. List Style and Alignment */
+        /* Updated class name for ul */
+        .do-not-sell ul {
+            list-style-type: disc;
+            padding-left: 40px; 
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+
+        .do-not-sell ul li {
+            margin-bottom: 8px;
+        }
+
+        /* --- BUTTON CENTERING FIX --- */
+        /* We wrap the button with a div for reliable centering in the HTML, or apply to a common parent. 
+           In this case, the button is directly in .error-page__inner. We will apply centering there 
+           and ensure the button behaves like an inline-block element. */
+        
+        /* Apply text-align: center to the immediate parent of the button in the HTML */
+        .error-page__inner {
+            text-align: center;
+        }
+
+        /* Ensure the button is treated as an inline-block element so the parent's text-align: center works */
+        .error-page__btn {
+            display: inline-block;
+            margin-top: 30px; /* Space above the button */
+        }
+    </style>
+    </head>
 
 <body>
     <div class="page-wrapper">
@@ -90,13 +161,7 @@
         </header>
 
         <div class="stricky-header stricked-menu main-menu main-menu-three">
-            <div class="sticky-header__content"></div><!-- /.sticky-header__content -->
-        </div><!-- /.stricky-header -->
-
-
-
-        <!--Page Header Start-->
-        <section class="page-header">
+            <div class="sticky-header__content"></div></div><section class="page-header">
             <div class="page-header__shape-1">
                 <img src="assets/images/shapes/page-header-shape-1.png" alt="">
             </div>
@@ -110,7 +175,7 @@
             </div>
             <div class="container">
                 <div class="page-header__inner">
-                    <h2>404 Error</h2>
+                    <h2>Do Not Sell My Personal Information</h2>
                     <div class="thm-breadcrumb__box">
                         <div class="thm-breadcrumb__shape-1">
                             <img src="assets/images/shapes/thm-breadcrumb-shape-1.png" alt="">
@@ -121,44 +186,64 @@
                         <ul class="thm-breadcrumb list-unstyled">
                             <li><a href="index.html">Home</a></li>
                             <li><span>-</span></li>
-                            <li>404 Error</li>
+                            <li>Do Not Sell My Information</li>
                         </ul>
                     </div>
                 </div>
             </div>
         </section>
-        <!--Page Header End-->
-
-        <!--Error Page Start-->
         <section class="error-page">
             <div class="container">
                 <div class="row">
                     <div class="col-xl-12">
                         <div class="error-page__inner">
-                            <div class="error-page__title-box">
-                                <h2 class="error-page__title">Oops!</h2>
-                                <div class="error-page__shape-1 float-bob-x">
-                                    <img src="assets/images/shapes/error-page-shape-1.png" alt="">
+                            
+                            <div class="do-not-sell">
+                                <h2 class="do-not-sell__title">Do Not Sell or Share My Personal Information</h2>
+                                
+                                <p>
+                                    If you are a California resident, the **California Consumer Privacy Act (CCPA)** and the **California Privacy Rights Act (CPRA)** grant you the right to opt-out of the "sale" or "sharing" of your personal information.
+                                </p>
+
+                                <div class="do-not-sell__section">
+                                    <h3>Our Policy</h3>
+                                    <p>
+                                        We **do not** directly sell your personal information (such as your name, email address, or phone number) for monetary value. However, like most online businesses, we use services such as advertising networks, analytics providers, and social media platforms, which may be deemed a "sale" or "sharing" of personal information under CCPA/CPRA, particularly regarding data collected through cookies and tracking technologies.
+                                    </p>
+                                </div>
+
+                                <div class="do-not-sell__section">
+                                    <h3>Your Right to Opt-Out</h3>
+                                    <p>
+                                        You have the right to direct us not to sell or share your personal information at any time.
+                                    </p>
+                                    <p>
+                                        **To submit an opt-out request for the use of cookies and tracking technologies (used for cross-context behavioral advertising):**
+                                    </p>
+                                    <ul>
+                                        <li>You can adjust your preferences via our **Cookie Consent Management Platform** (if available on the site).</li>
+                                        <li>You can enable the **Global Privacy Control (GPC)** signal on your web browser. If we detect this signal, we will automatically honor your request to opt-out of the sale and sharing of your personal information.</li>
+                                        <li>You can use the form below or contact us directly at: <a href="mailto:privacy@yourcompany.com">privacy@yourcompany.com</a>.</li>
+                                    </ul>
+                                </div>
+
+                                <div class="do-not-sell__section">
+                                    <h3>Submitting a Request</h3>
+                                    <p>
+                                        To formally exercise your right to opt-out, please click the link below or send an email to the address provided above. We will process your request within the legally required timeframe.
+                                    </p>
+                                    <p class="do-not-sell__closing">
+                                        *Note: This opt-out applies to the selling/sharing of personal information and does not restrict us from transferring personal information to our service providers.*
+                                    </p>
                                 </div>
                             </div>
-                            <h3 class="error-page__tagline">Sorry! Page Not Found
-                            </h3>
-                            <p class="error-page__text">The page you are looking for was never existed.</p>
-                            <form class="error-page__form">
-                                <div class="error-page__form-input">
-                                    <input type="search" placeholder="Search here">
-                                    <button type="submit"><i class="icon-search"></i></button>
-                                </div>
-                            </form>
+
                             <a href="index.html" class="thm-btn error-page__btn">Back To Home</a>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <!--Error Page End-->
-
-        <!--Site Footer Start-->
         <footer class="site-footer mt-1">
             <div class="site-footer__shape-1 float-bob-x">
                 <img src="assets/images/shapes/site-footer-shape-1.png" alt="">
@@ -189,48 +274,10 @@
                                                 alt=""></a>
                                     </div>
                                 </div>
-                                <!-- <ul class="footer-widget__contact list-unstyled">
-                                    <li>
-                                        <div class="icon">
-                                            <i class="icon-phone"></i>
-                                        </div>
-                                        <div class="text">
-                                            <p>
-                                                <a href="tel:0881122334455">+088 11 22 33 44 55</a>
-                                                <a href="tel:86611220077">+866 11 22 00 77</a>
-                                            </p>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="icon icon-two">
-                                            <i class="icon-location"></i>
-                                        </div>
-                                        <div class="text">
-                                            <p>601 Merritt 7, norwalk, 124 CT
-                                                <br> New York, USA</p>
-                                        </div>
-                                    </li>
-                                </ul>
-                                <ul class="footer-widget__social-box list-unstyled">
-                                    <li>
-                                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="fab fa-twitter"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="fab fa-pinterest-p"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="fab fa-instagram"></i></a>
-                                    </li>
-                                </ul> -->
-                            </div>
-                            <p class="footer-widget__text">Get the latest news, tips and latest
+                                <p class="footer-widget__text">Get the latest news, tips and latest
                                     messages, including special offers</p>
+                            </div>
                         </div>
-                        
-
                     </div>
                 </div>
             </div>
@@ -238,36 +285,17 @@
                 <div class="container">
                     <div class="row site-footer__bottom-inner">
                         <div class="col-xl-12">
-                            <p class="fw-bold"><a href="">Terms & Conditions</a> <span class="text-secondary">|</span> <a href="">Privacy Policy</a> <span class="text-secondary">|</span> <a href="">Do not Sell My Personal Information</a></p>
+                            <p class="fw-bold"><a href="terms-conditions.html">Terms & Conditions</a> <span class="text-secondary">|</span> <a href="privacy-policy.html">Privacy Policy</a> <span class="text-secondary">|</span> <a href="#">**Do not Sell My Personal Information**</a></p>
                         </div>
                         <div class="col-xl-12 mt-3">
-                                <p class="site-footer__bottom-text">©2022 Template_mr All Rights Reserved</p>
+                            <p class="site-footer__bottom-text">©2022 Template_mr All Rights Reserved</p>
                         </div>
-                        <!-- <div class="col-xl-6">
-                            <div class="site-footer__bottom-inner">
-                                <p class="site-footer__bottom-text">©2022 Template_mr All Rights Reserved</p>
-                            </div>
-                        </div>
-                    </div> -->
+                    </div>
                 </div>
             </div>
         </footer>
-        <!--Site Footer End-->
-
-
-
-
-
-
-
-
-
-    </div><!-- /.page-wrapper -->
-
-
-    <div class="mobile-nav__wrapper">
+        </div><div class="mobile-nav__wrapper">
         <div class="mobile-nav__overlay mobile-nav__toggler"></div>
-        <!-- /.mobile-nav__overlay -->
         <div class="mobile-nav__content">
             <span class="mobile-nav__close mobile-nav__toggler"><i class="fa fa-times"></i></span>
 
@@ -275,10 +303,7 @@
                 <a href="index.html" aria-label="logo image"><img src="assets/images/resources/logo-1.png" width="150"
                         alt="" /></a>
             </div>
-            <!-- /.logo-box -->
             <div class="mobile-nav__container"></div>
-            <!-- /.mobile-nav__container -->
-
             <ul class="mobile-nav__contact list-unstyled">
                 <li>
                     <i class="fa fa-envelope"></i>
@@ -288,39 +313,25 @@
                     <i class="fa fa-phone-alt"></i>
                     <a href="tel:666-888-0000">666 888 0000</a>
                 </li>
-            </ul><!-- /.mobile-nav__contact -->
-            <div class="mobile-nav__top">
+            </ul><div class="mobile-nav__top">
                 <div class="mobile-nav__social">
                     <a href="#" class="fab fa-twitter"></a>
                     <a href="#" class="fab fa-facebook-square"></a>
                     <a href="#" class="fab fa-pinterest-p"></a>
                     <a href="#" class="fab fa-instagram"></a>
-                </div><!-- /.mobile-nav__social -->
-            </div><!-- /.mobile-nav__top -->
-
-
-
+                </div></div></div>
         </div>
-        <!-- /.mobile-nav__content -->
-    </div>
-    <!-- /.mobile-nav__wrapper -->
-
     <div class="search-popup">
         <div class="search-popup__overlay search-toggler"></div>
-        <!-- /.search-popup__overlay -->
         <div class="search-popup__content">
             <form action="#">
-                <label for="search" class="sr-only">search here</label><!-- /.sr-only -->
-                <input type="text" id="search" placeholder="Search Here..." />
+                <label for="search" class="sr-only">search here</label><input type="text" id="search" placeholder="Search Here..." />
                 <button type="submit" aria-label="search submit" class="thm-btn">
                     <i class="icon-search"></i>
                 </button>
             </form>
         </div>
-        <!-- /.search-popup__content -->
-    </div>
-    <!-- /.search-popup -->
-
+        </div>
     <a href="#" data-target="html" class="scroll-to-target scroll-to-top"><i class="fa fa-angle-up"></i></a>
 
 
@@ -353,7 +364,6 @@
 
 
 
-    <!-- template js -->
     <script src="assets/js/corpai.js"></script>
 </body>
 
